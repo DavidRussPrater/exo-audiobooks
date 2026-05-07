@@ -3,7 +3,6 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.android.application)
-//    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.hilt)
     alias(libs.plugins.kotlin.serialization)
@@ -11,11 +10,11 @@ plugins {
 }
 
 extensions.configure<ApplicationExtension> {
-    namespace = "com.example.myapplication"
+    namespace = "com.spatiumapps.exo.audiobooks"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.myapplication"
+        applicationId = "com.spatiumapps.exo.audiobooks"
         minSdk = 31
         targetSdk = 36
         versionCode = 1

@@ -1,8 +1,0 @@
-package com.example.myapplication.data.remote
-
-import retrofit2.http.GET
-
-interface MyApiService {
-    @GET("endpoint")
-    suspend fun getData(): String
-}

@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SkeletonAndroidProject"
+rootProject.name = "exo-audiobooks"
 include(":app")
  
